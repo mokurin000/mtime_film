@@ -1,0 +1,12 @@
+[project]
+authors = ["poly000 <1348292515a@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "mtime_film"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+scrapy = ">=2.12.0,<3"

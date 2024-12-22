@@ -8,7 +8,6 @@ from ..items import MtimeMovieInfoItem
 
 class MtimeMovieInfoSpider(Spider):
     name = "mtime_movie_info"
-    allowed_domains = ["http://front-gateway.mtime.com"]
     custom_settings = {
         "DOWNLOAD_DELAY": 5,
         "DOWNLOADER_MIDDLEWARES": {
